@@ -14,5 +14,10 @@ export class ButtonComponent implements OnInit {
 
   ngOnInit(): void {}
 
+  onClick() {
+    console.log('Add');
+
+  }
+
 
 }
