@@ -16,6 +16,11 @@
     "text": "Shopping",
     "day":"May 27th at 12:30pm",
     "reminder": false
+  },
+  {"id": 3,
+    "text": "Test",
+    "day":"May 28th at 12:30pm",
+    "reminder": false
   }
  ]
 }
