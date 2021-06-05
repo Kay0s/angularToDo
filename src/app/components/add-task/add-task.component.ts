@@ -6,7 +6,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./add-task.component.css']
 })
 export class AddTaskComponent implements OnInit {
-  @Output() onAddTask: EventEmitter<Task>
+  @Output() onAddTask: EventEmitter<Task> = new EventEmitter();
 
   text: string;
   day: string;
