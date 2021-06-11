@@ -9,6 +9,7 @@ import {Subscription} from 'rxjs';
 })
 export class HeaderComponent implements OnInit {
   title: string = 'AngularToDo';
+  showAddTask: boolean;
   
 
   constructor() { }
