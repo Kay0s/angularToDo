@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {UiService} from '../../services/ui.service';
-import {Subscription} from 'rxjs';
+import { UiService } from '../../services/ui.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -11,11 +11,11 @@ export class HeaderComponent implements OnInit {
   title: string = 'AngularToDo';
   showAddTask: boolean;
   subscription: Subscription;
-  
 
-  constructor() { }
 
-  ngOnInit(): void {}
+  constructor(private uiService: UiService) { }
+
+  ngOnInit(): void { }
 
   toggleAddTask() {
     console.log('toggle');
