@@ -15,7 +15,7 @@ export class AddTaskComponent implements OnInit {
   day: string;
   reminder: boolean = false;
 
-  constructor() { }
+  constructor(private uiService: UiService) { }
 
   ngOnInit(): void { }
 
