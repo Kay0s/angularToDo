@@ -16,7 +16,7 @@ import { AboutComponent } from './components/about/about.component';
 
 const appRoutes: Routes = [
   { path: '', component: TasksComponent },
-  { path: 'about', component: aboutComponent }
+  { path: 'about', component: AboutComponent }
 ];
 
 
