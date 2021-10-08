@@ -20,7 +20,6 @@ const appRoutes: Routes = [
   { path: 'about', component: AboutComponent }
 ];
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +38,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes, { enableTracing: true }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
 
