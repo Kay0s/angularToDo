@@ -41,7 +41,7 @@
             "development": {
               "buildOptimizer": true,
               "optimization": true,
-              "vendorChunk": true,
+              "vendorChunk": false,
               "extractLicenses": true,
               "sourceMap": false,
               "namedChunks": false
