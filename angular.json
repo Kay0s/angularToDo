@@ -47,7 +47,8 @@
               "namedChunks": false,
               "budgets": [
                 {
-                "type": "initial"
+                "type": "initial",
+                "maximumWarning": "2mb"
                 }
               ]
             }
