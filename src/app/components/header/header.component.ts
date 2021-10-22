@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -11,6 +12,7 @@ import { Subscription } from 'rxjs';
 })
 export class HeaderComponent implements OnInit {
   title: string = 'Task Tracker';
+  showAddTask: boolean = false;
 
   constructor() { }
 
