@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
   showAddTask: boolean = false;
   subscription: Subscription;
 
-  constructor() { }
+  constructor(private uiService: UiService, private router: Router) { }
 
   ngOnInit(): void {
   }
